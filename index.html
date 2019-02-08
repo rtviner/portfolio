@@ -6,48 +6,76 @@
   	<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit="no">
 	<title>RTViner</title>
   	<link rel="stylesheet" href="style.css"> 
-  	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">                                              
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">                                              
 </head>
   
 <body>
 	<nav id="navbar">
-		<header>Rebecca T Viner</header>
-		<a href="#welcome-section">About</a>
-		<a href="#projects">Projects</a>
-		<a href="#connect">Connect</a>
+		<!-- <header id="title">Rebecca T Viner</header> -->
+		<ul class="nav-list">
+			<li>
+				<a class="nav-link" id="about" href="#welcome-section">About</a>
+			</li>
+			<li>
+				<a class="nav-link" id="projects" href="#projects">Projects</a>
+			</li>
+			<li>
+				<a class="nav-link" id="connect" href="#connect">Connect</a>
+			</li>
+		</ul>
 	</nav>
 	<main>
 		<section id="welcome-section">
-			<h1>Welcome!</h1>
-			<p>My name is Rebecca Viner (Becca) and I am a web developer.  Making useful things and solving problems brings me satisfaction.  Please take a look at some of my creations below.</p>
+			<h1>Rebecca T Viner</h1>
+			<p>Welcome!  I am a web developer.  Adventurous... determined. Human performance, injury prevention and recory... Mountain biking snowboarding.  Balance... Making useful things and solving problems brings me satisfaction... Please take a look at some of my creations below.   </p>
 		</section>
 
 		<section id="projects">
 			<header>
-				<h2>Projects</h2>
+				<h2>A Few of My Projects</h2>
 			</header>
 			<article id="brew-ratio" class="project">
 				<h3>Brew Ratio</h3>
 				
 				<figure>
-					<img src="images/brewRatio_w_500.png" alt="Brew Ratio webpage preview">
+					<a href="https://rtviner.github.io/brew-ratio/" class="project-thumbnail">
+						<img src="images/brewRatio_w_500.png" alt="Brew Ratio webpage preview">
+					</a>
+					<figcaption>Brew Ratio is a coffee conversion tool built with React JS</figcaption>
 				</figure>
 
+				<a href="https://github.com/rtviner/brew-ratio">
+					<h4>Read More</h4>
+				</a>
 			</article>
 
 			<article id="exerdice" class="project">
 				<h3>Exerdice</h3>
 				<figure>
-					<img src="images/Exerdice_w_500.png" alt="Exerdice webpage preview">
+					<a href="https://rtviner.github.io/Exerdice/" class="project-thumbnail">
+						<img src="images/Exerdice_w_500.png" alt="Exerdice webpage preview">
+					</a>
+					<figcaption>Exerdice is and exercise game built with Vanilla JavaScript</figcaption>
 				</figure>
+
+				<a href="https://github.com/rtviner/Exerdice">
+					<h4>Read More</h4>
+				</a>
 
 			</article>
 
 			<article id="loam-seekers" class="project">
 				<h3>Loam Seekers</h3>
 				<figure>
-					<img src="images/loam-seekers_w_500.png" alt="Loam Seekers webpage preview">
+					<a href="https://rtviner.github.io/loam-seekers/" class="project-thumbnail">
+						<img src="images/loam-seekers_w_500.png" alt="Loam Seekers webpage preview">
+					</a>
+					<figcaption>Loam Seekers is a photo journal created with CSS and HTML.</figcaption>
 				</figure>
+
+				<a href="https://github.com/rtviner/loam-seekers">
+					<h4>Read More</h4>
+				</a>
 
 			</article>
 
@@ -55,8 +83,15 @@
 				<h3>Calculator</h3>
 				
 				<figure>
-					<img src="images/JScalculator_w_500.png" alt="JS Calculator webpage preview">
+					<a href="https://rtviner.github.io/JScalculator/" class="project-thumbnail">
+						<img src="images/JScalculator_w_500.png" alt="JS Calculator webpage preview">
+					</a>
+					<figcaption>JS Calculator is a calculator created with Vanilla JS.</figcaption>
 				</figure>
+
+				<a href="https://github.com/rtviner/JScalculator">
+					<h4>Read More</h4>
+				</a>
 				
 
 			</article>
@@ -66,8 +101,13 @@
 			<header>
 				<h2>Connect with Me</h2>
 			</header>
+			<ul class="contact-info">
+				<a id="profile-link" href="https://github.com/rtviner">
+					<li>https://github.com/rtviner</li>
+				</a>
+					<li>rtviner@gmail.com</li>
+					<li>Linked In</li>
 
-			<a id="profile-link" href="https://github.com/rtviner">https://github.com/rtviner</a>
 
 		</section>
 
