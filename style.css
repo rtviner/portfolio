@@ -32,7 +32,6 @@ header#title {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     padding: .45em;
-    color: #2b2b35;
 }
 
 ul.nav-list {
@@ -68,14 +67,17 @@ section#welcome-section {
     height: 100vh;
     margin-left: 0;
     padding-left: 0;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
 }
 
 h1#name {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.75em;
-    padding-top: 3em;
+    padding-top: 0;
     text-align: center;
 }
 
@@ -84,22 +86,59 @@ p {
     margin: 0 auto;
 }
 
+img#rtv-photo {
+    margin: 2em;
+}
+
 h2 {
 	font-weight: normal;
 	text-align: center;
 }
 
 section#projects {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    padding-top: 2em;
+    margin-top: 2em;
+    height: auto;
+    
+}
+
+header h2#projects-head {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.project-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+article.project {
+    width: 33%;
+    height: 450px;
 }
 
 
 
+figure.project-gallery-fig {
+    max-width: 450px;
+}
+
+img.project-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
 section#connect {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background: #22313F;
+    color: #d3d4d4;
+    margin-bottom: 0;
 }
 
 
