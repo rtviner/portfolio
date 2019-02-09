@@ -80,6 +80,7 @@ h1#name {
     font-size: 1.75em;
     padding-top: 0;
     text-align: center;
+    text-shadow: 1px 1px #22313F;
 }
 
 p {
@@ -99,9 +100,10 @@ h2 {
 section#projects {
     width: 100%;
     margin: 0 auto;
-    padding-top: 2em;
+    padding: 3em 0;
     height: auto;
     background-color: #fafafa;
+
     
 }
 
