@@ -24,6 +24,7 @@ nav#navbar {
     font-family: 'Montserrat', sans-serif;
     background-color: #565656;
     color: #d3d4d4;
+    z-index: 50;
 }
 
 header#title {
@@ -72,6 +73,7 @@ section#welcome-section {
     justify-content: center;
     flex-direction: column;   
     border-bottom: 2px solid #22313F;
+    z-index: 25;
 }
 
 h1#name {
@@ -103,6 +105,7 @@ section#projects {
     padding: 3em 0;
     height: auto;
     background-color: #fafafa;
+    z-index: 25;
 
     
 }
@@ -134,19 +137,78 @@ article.project {
     min-width: 300px;
     max-height: 400px;
     margin: 0;
-    padding: .75em;
+    padding: .75em;   
 }
-
 
 figure.project-gallery-fig {
     margin: 0;
-    padding: 0;   
+    padding: 0;  
+    overflow: hidden; 
+    position: relative;
+}
+
+.project-gallery-fig .overlay {
+    background: rgba(13,19,25,0.7);
+    opacity: 0;
+    height: 99%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.project-gallery-fig:hover .overlay {
+    opacity: 1;
 }
 
 img.project-thumbnail {
+    display: block;
     width: 100%;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.project-gallery-fig:hover .project-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.project-details h3 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.project-details p {
+    color: #fff;
+    font-size: .8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
 }
 
 section#connect {
@@ -162,6 +224,9 @@ header#connect-head h2 {
     padding: 1em;
 }
 
+@media screen and (max-width: 655px) {
+
+}
 
 
 
