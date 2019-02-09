@@ -71,6 +71,7 @@ section#welcome-section {
     align-items: center;
     justify-content: center;
     flex-direction: column;   
+    border-bottom: 2px solid #22313F;
 }
 
 h1#name {
@@ -98,47 +99,65 @@ h2 {
 section#projects {
     width: 100%;
     margin: 0 auto;
-    margin-top: 2em;
+    padding-top: 2em;
     height: auto;
+    background-color: #fafafa;
     
 }
 
-header h2#projects-head {
+header#projects-head h2 {
+    color: #22313F;
     display: block;
     width: 100%;
     margin: 0 auto;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding: 1.5em;
 }
+
 
 div.project-gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
 }
 
 article.project {
     width: 33%;
-    height: 450px;
+    max-width: 450px;
+    min-width: 300px;
+    max-height: 400px;
+    margin: 0;
+    padding: .75em;
 }
 
 
-
 figure.project-gallery-fig {
-    max-width: 450px;
+    margin: 0;
+    padding: 0;   
 }
 
 img.project-thumbnail {
     width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 section#connect {
     width: 100%;
     margin: 0 auto;
-    background: #22313F;
+    background-color: #22313F;
     color: #d3d4d4;
     margin-bottom: 0;
+}
+
+header#connect-head h2 {
+    margin: 0 auto;
+    padding: 1em;
 }
 
 
