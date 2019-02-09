@@ -105,7 +105,9 @@ h1#name {
 
 p {
     max-width: 29em;
-    margin: 0 auto;
+    margin: 0 ;
+    padding: .25em;
+    justify-content: left;
 }
 
 img#rtv-photo {
@@ -128,14 +130,17 @@ section#projects {
     
 }
 
+header {
+    width: 100%;
+}
+
 header#projects-head h2 {
     color: #22313F;
     display: block;
-    width: 100%;
     margin: 0 auto;
-    font-size: 1.75em;
+    font-size: 1.5em;
     font-weight: bold;
-    padding: 1.5em;
+    padding: 0;
 }
 
 
