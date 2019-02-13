@@ -1,7 +1,5 @@
 * {
 	box-sizing: border-box;
-
-
 }
 
 body {
@@ -10,8 +8,6 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-
-
 }
 
 nav#navbar {
@@ -42,7 +38,6 @@ ul.nav-list {
     margin:0;
     font-family: 'Open Sans', sans-serif;
     text-align: right;
-
 }
 
 li {
@@ -54,6 +49,22 @@ a {
     text-decoration: none;
     color: #22313F;
     padding: .5em;
+}
+
+.nav-link :hover {
+    background-color: blue;
+    padding: .65em;
+}
+
+.nav-link :active {
+    text-decoration: none;
+    background-color: #565656;
+    color: #d3d4d4;
+    font-size: 1.75em;
+}
+
+a.nav-link :visited {
+
 }
 
 main {
