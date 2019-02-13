@@ -51,19 +51,28 @@ a {
     padding: .5em;
 }
 
-.nav-link :hover {
-    background-color: blue;
-    padding: .65em;
-}
-
-.nav-link :active {
-    text-decoration: none;
-    background-color: #565656;
+li.nav-list :hover {
+    background-color: #22313F;
     color: #d3d4d4;
-    font-size: 1.75em;
+    font-size: 1.25em;
+    padding: .35em;
+    text-decoration: none;
 }
 
-a.nav-link :visited {
+li.nav-list :active {
+    background-color: #22313F;
+    color: #d3d4d4;
+    font-size: 1.25em;
+    padding: .35em;
+    text-decoration: none;
+}
+
+li.nav-link :visited {
+    font-size: 1em;
+    padding: .5em;
+    text-decoration: none;
+    background-color: #fafafa;
+    color: #22313F;
 
 }
 
