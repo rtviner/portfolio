@@ -246,6 +246,12 @@ img.project-thumbnail {
     opacity: 1;
 }
 
+p.project-text {
+    text-align: left;
+    padding: 1em;
+    text-indent: 2em;
+}
+
 .project-text, .live-link {
     color: #fff;
     font-size: 1em;
