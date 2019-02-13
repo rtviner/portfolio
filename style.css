@@ -257,6 +257,10 @@ p.project-text {
     font-size: 1em;
 }
 
+.live-link {
+    font-weight: bold;
+}
+
 .fadeIn-bottom {
     top: 80%;
 }
