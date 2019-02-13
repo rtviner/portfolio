@@ -178,7 +178,7 @@ div.project-gallery {
 article.project {
     width: 33%;
     max-width: 450px;
-    min-width: 300px;
+    min-width: 375px;
     margin: 0;
     margin-top: 2em;
     padding: 1em;   
@@ -258,6 +258,10 @@ img.project-thumbnail {
 
 .fadeIn-bottom {
     top: 80%;
+}
+
+img.gitHubLogo {
+    max-width: 20%;
 }
 
 section#connect {
