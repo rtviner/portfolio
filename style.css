@@ -43,6 +43,7 @@ ul.nav-list {
 li {
 	display: inline-block;
 	list-style: none;
+
 }
 
 a {
@@ -256,7 +257,24 @@ img.project-thumbnail {
 
 img.gitHubLogo {
     max-width: 20%;
+    margin: 0 auto;
+    vertical-align: middle;
+    
 }
+
+div.project-details a:hover {
+    background-color: #000;
+}
+
+div.project-details a:active {
+    background-color: #000;
+}
+
+div.project-details a:visited {
+    color: #fff;
+    font-size: 1em;
+}
+
 
 section#connect {
     width: 100%;
