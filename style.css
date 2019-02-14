@@ -300,7 +300,6 @@ section#connect {
     margin: 0 auto;
     background-color: #22313F;
     color: #d3d4d4;
-
     display: flex;
     flex-direction: column;  
     flex-wrap: wrap;
@@ -320,8 +319,6 @@ div.contact-info {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-/*    padding-left: 2em;
-    padding-right: 2em;*/
 }
 
 div.contact {
@@ -331,6 +328,7 @@ div.contact {
     width: 215px;
     padding: .5em;
     margin: 2em;
+    background-color: #565656;
 }
 
 a.contact-link {
@@ -341,6 +339,16 @@ a.contact-link {
 
 p.email {
   color: #fff;  
+}
+
+
+div.contact:hover {
+    background-color: #565656;
+}
+
+a.contact-link:hover {
+    color: #000;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 785px) {
