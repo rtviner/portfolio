@@ -57,7 +57,6 @@ li.nav-list :hover {
     background-color: #22313F;
     color: #d3d4d4;
     font-size: 1.1em;
-    padding-top: .35em;
     text-decoration: none;
 }
 
@@ -65,7 +64,6 @@ li.nav-list :active {
     background-color: #22313F;
     color: #d3d4d4;
     font-size: 1.25em;
-    padding-top: .35em;
     text-decoration: none;
 }
 
