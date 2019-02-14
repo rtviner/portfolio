@@ -293,17 +293,33 @@ section#connect {
 
     display: flex;
     flex-direction: column;  
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 header#connect-head h2 {
-    margin: 0 auto;
+    margin: 1em auto;
     padding: 1em;
+    font-size: 1.75em;
 }
 
-a.contact-link {
+div.contact-info {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+}
+
+div.contact {
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+a.contact-link, p.email {
     padding: .5em;
+    color: #fff;
 }
 
 @media screen and (max-width: 655px) {
