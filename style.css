@@ -16,6 +16,7 @@ nav#navbar {
     top: 0;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: nowrap;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     background-color: #fafafa;
@@ -80,6 +81,8 @@ main {
 	margin-left: 0;
     margin-top: 3.5em;
     font-family: 'Open Sans', sans-serif;
+    background-color: #fafafa;
+    
 }
 
 section#welcome-section {
@@ -312,7 +315,7 @@ div.contact-info {
 }
 
 div.contact {
-    width: 20%;
+    max-width: 20%;
     text-align: center;
     margin: 0 auto;
 }
@@ -320,11 +323,29 @@ div.contact {
 a.contact-link, p.email {
     padding: .5em;
     color: #fff;
-}
-
-@media screen and (max-width: 655px) {
 
 }
 
+@media screen and (max-width: 785px) {
+
+    header#title {
+        font-size: 1em;
+        padding: 1em .5em;
+    }
+
+    ul.nav-list {
+        width: 100%;
+        font-size: 1em;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+        header#title {
+            visibility: collapse;
+            width: 0%;
+        }
+}
 
 
