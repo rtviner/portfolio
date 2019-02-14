@@ -125,7 +125,7 @@ h1#name {
     margin-top: 0;
 }
 
-p {
+div.welcome-text p {
     max-width: 29em;
     margin: 0 ;
     padding: .25em;
@@ -288,15 +288,24 @@ div.project-details a:visited {
 
 section#connect {
     width: 100%;
+    height: 400px;
     margin: 0 auto;
     background-color: #22313F;
     color: #d3d4d4;
-    margin-bottom: 0;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
 }
 
 header#connect-head h2 {
     margin: 0 auto;
     padding: 1em;
+}
+
+a.contact-link {
+    padding: .5em;
 }
 
 @media screen and (max-width: 655px) {
