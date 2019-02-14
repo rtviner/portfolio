@@ -317,20 +317,30 @@ header#connect-head h2 {
 div.contact-info {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
+/*    padding-left: 2em;
+    padding-right: 2em;*/
 }
 
 div.contact {
-    max-width: 20%;
     text-align: center;
-    margin: 0 auto;
+    border: 1px solid #d3d4d4;
+    border-radius: 10px;
+    width: 215px;
+    padding: .5em;
+    margin: 2em;
 }
 
-a.contact-link, p.email {
+a.contact-link {
     padding: .5em;
     color: #fff;
 
+}
+
+p.email {
+  color: #fff;  
 }
 
 @media screen and (max-width: 785px) {
@@ -373,6 +383,14 @@ a.contact-link, p.email {
         padding: 0;
     }
 
+    div.contact-info {
+        font-size: .85em;
+    }
+
+    header#connect-head {
+        font-size: .75em;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -391,6 +409,10 @@ a.contact-link, p.email {
         font-size: .85em;
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    div.contact {
+        margin: 1em;
     }
 
 }
