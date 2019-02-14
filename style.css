@@ -359,6 +359,22 @@ a.contact-link, p.email {
     p#signature {
         text-align: left;
     }
+
+    section#projects {
+        padding: 1em 0;
+    }
+
+    header#projects-head h2{
+        margin: 2em 0;
+        font-size: 1.25em;
+    }
+
+    article.project {
+        margin: 0;
+        padding: 0;
+    }
+
+
 }
 
 @media screen and (max-width: 620px) {
