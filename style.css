@@ -328,19 +328,13 @@ div.contact {
     padding: .5em;
     margin: 2em;
     background-color: #565656;
+    color: #fff;
 }
 
 a.contact-link {
     padding: .5em;
     color: #fff;
-    margin: 0 auto;
-
 }
-
-p.email {
-  color: #fff;  
-}
-
 
 a.contact-link:hover {
     font-weight: bold;
