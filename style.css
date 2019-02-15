@@ -281,15 +281,14 @@ img.gitHubLogo {
 }
 
 div.project-details a:hover {
-    background-color: #000;
+    font-size: 1.25em;
 }
 
 div.project-details a:active {
-    background-color: #000;
+    font-size: 1.25em;
 }
 
 div.project-details a:visited {
-    color: #fff;
     font-size: 1em;
 }
 
