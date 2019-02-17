@@ -188,7 +188,7 @@ article.project {
     width: 33%;
     max-width: 450px;
     min-width: 350px;
-    margin: 0;
+    margin:`     0;
     margin-top: 2em;
     padding: 1em;   
 }
@@ -273,23 +273,36 @@ p.project-text {
     top: 80%;
 }
 
-img.gitHubLogo {
-    max-width: 20%;
+div.gitHubLogoWhite {
+    background-image: url('images/GitHub-Mark-Light-32px.png');
+    background-repeat: no-repeat;
+    width: 32px;
     margin: 0 auto;
-    vertical-align: middle;
-    
+    vertical-align: middle;  
+    display: inline-block;  
+    padding: 0.5em;
+}
+
+div.gitHubLogoBlack:hover {
+    background-image: url('images/GitHub-Mark-32px.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    margin: 0 auto;
+    vertical-align: middle;  
+    display: inline-block;  
+    padding: 0.5em;
 }
 
 div.project-details a:hover {
-    font-size: 1.25em;
+    color: #000;
 }
 
 div.project-details a:active {
-    font-size: 1.25em;
+    color: #000;
 }
 
 div.project-details a:visited {
-    font-size: 1em;
+    /*color: #fff;*/
 }
 
 
