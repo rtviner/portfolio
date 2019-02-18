@@ -277,6 +277,7 @@ div.gitHubLogoWhite {
     background-image: url('images/GitHub-Mark-Light-32px.png');
     background-repeat: no-repeat;
     width: 32px;
+    height: 32px;
     margin: 0 auto;
     vertical-align: middle;  
     display: inline-block;  
@@ -287,6 +288,7 @@ div.gitHubLogoBlack:hover {
     background-image: url('images/GitHub-Mark-32px.png');
     background-repeat: no-repeat;
     width: 32px;
+    height: 32px;
     margin: 0 auto;
     vertical-align: middle;  
     display: inline-block;  
@@ -344,13 +346,32 @@ div.contact {
     color: #fff;
 }
 
-a.contact-link {
-    padding: .5em;
-    color: #fff;
+div.linkedIn-white {
+    background-image: url('images/In-White-34px-R.png'); 
+    height: 34px;
+    width: 43px;
+    margin: 0 auto;
+    vertical-align: middle;  
+    display: inline-block;  
+    padding: 0.5em;
 }
 
-a.contact-link:hover {
-    font-weight: bold;
+div.linkedIn-black:hover {
+    background-image: url('images/In-Black-34px-R.png'); 
+    height: 34px;
+    width: 43px;
+    margin: 0 auto;
+    vertical-align: middle;  
+    display: inline-block;  
+}
+
+a.contact-link {
+    padding: .5em;
+    color: #000;  
+}
+
+a.contact-link:hover {   
+    color: #fff;
 }
 
 @media screen and (max-width: 785px) {
