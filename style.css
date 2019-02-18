@@ -265,10 +265,6 @@ p.project-text {
     font-size: 1em;
 }
 
-/*.live-link {
-    font-weight: bold;
-}*/
-
 .fadeIn-bottom {
     top: 80%;
 }
@@ -367,11 +363,11 @@ div.linkedIn-black:hover {
 
 a.contact-link {
     padding: .5em;
-    color: #000;  
+    color: #fff;  
 }
 
 a.contact-link:hover {   
-    color: #fff;
+    color: #000;
 }
 
 @media screen and (max-width: 785px) {
