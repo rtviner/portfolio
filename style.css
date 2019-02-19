@@ -292,6 +292,11 @@ p.project-text {
     top: 80%;
 }
 
+div.project-details a {
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+
 div.gitHubLogoWhite {
     background-image: url('images/GitHub-Mark-Light-32px.png');
     background-repeat: no-repeat;
@@ -301,6 +306,8 @@ div.gitHubLogoWhite {
     vertical-align: middle;  
     display: inline-block;  
     padding: 0.5em;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
 
 div.gitHubLogoBlack:hover {
@@ -373,6 +380,8 @@ div.linkedIn-white {
     vertical-align: middle;  
     display: inline-block;  
     padding: 0.5em;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
 
 div.linkedIn-black:hover {
@@ -387,6 +396,8 @@ div.linkedIn-black:hover {
 a.contact-link {
     padding: .5em;
     color: #fff;  
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
 
 a.contact-link:hover {   
