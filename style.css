@@ -66,7 +66,7 @@ a.nav-link:before {
     width: 67%;
     height: 2.5px;
     bottom: 0;
-    left: .45em;
+    left: .5em;
     background-color: #22313F;
     visibility: hidden;
     -webkit-transform: scaleX(0);
@@ -77,6 +77,7 @@ a.nav-link:before {
 
 a#about:before {
     width: 60%;
+    left: .45em;
 }
 
 a.nav-link:hover {
