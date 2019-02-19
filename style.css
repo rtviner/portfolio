@@ -63,7 +63,7 @@ a.nav-link {
 a.nav-link:before {
     content: "";
     position: absolute;
-    width: 70%;
+    width: 67%;
     height: 2.5px;
     bottom: 0;
     left: .45em;
