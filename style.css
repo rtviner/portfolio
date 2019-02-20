@@ -121,6 +121,7 @@ section#welcome-section {
     border-bottom: 2px solid #22313F;
     z-index: 25;
 
+
 }
 
 article.welcome {
@@ -133,6 +134,7 @@ article.welcome {
     padding: 6em 1em;
     width: 60%;
     min-width: 610px;
+    border-radius: 5px;
 }
 
 .welcome-text {
@@ -358,6 +360,7 @@ header#connect-head h2 {
     font-size: 1.75em;
 }
 
+
 div.contact-info {
     display: flex;
     flex-direction: row;
@@ -366,11 +369,15 @@ div.contact-info {
     justify-content: center;
 }
 
+div.contact-info h3 {
+    font-size: 1.25em;
+}
+
 div.contact {
     text-align: center;
     border: 1px solid #d3d4d4;
     border-radius: 10px;
-    width: 215px;
+    width: 235px;
     padding: .5em;
     margin: 2em;
     background-color: #565656;
