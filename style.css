@@ -161,10 +161,8 @@ div.welcome-text p {
 }
 
 img#rtv-photo {
-    padding: 2em;
     width: 100%;
     height: auto;
-    min-width: 200px;
 }
 
 h2 {
@@ -176,7 +174,7 @@ section#projects {
     width: 100%;
     margin: 0 auto;
     padding: 3em 0;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     height: auto;
     background-color: #fafafa;
     z-index: 25;  
@@ -203,14 +201,15 @@ div.project-gallery {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    width: 74.5%;
+    max-width: 74.5%;
     margin: 0 auto;
     margin-top: 2.5em;
 }
 
 article.project {
-    width: 325px;
-    height: 325px;
+    width: 33%;
+    max-width: 325px;
+    min-width: 225px;
     margin: 1em;
     margin-bottom: 2em;
     overflow: hidden; 
@@ -221,10 +220,13 @@ article.project.bottom-row {
     margin-top: 0;
 }
 
+
 figure.project-gallery-fig {
     margin: 0;
     padding: 0;  
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .project-gallery-fig .overlay {
@@ -249,8 +251,7 @@ figure.project-gallery-fig {
 img.project-thumbnail {
     display: block;
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 .project-details {
@@ -403,6 +404,15 @@ a.contact-link:hover {
     color: #000;
 }
 
+@media screen and (max-width: 1437px) {
+
+    article.project {
+        margin: 0.5em;
+        margin-bottom: 1em;
+    }
+   
+}
+
 @media screen and (max-width: 785px) {
 
     header#title {
@@ -435,8 +445,8 @@ a.contact-link:hover {
     }
 
     article.project {
-        margin: 0;
-        padding: 0;
+        margin: .25em;
+        margin-bottom: .5em;
     }
 
     div.contact-info {
@@ -454,7 +464,6 @@ a.contact-link:hover {
         min-width: 80%;
         flex-wrap: wrap;
         padding: 2em;
-
     }
 
     .welcome-text {
@@ -466,9 +475,20 @@ a.contact-link:hover {
         padding-left: 1em;
         padding-right: 1em;
     }
-
+    div.project-gallery {
+        justify-content: center;
+    }
     div.contact {
         margin: 1em;
+    }
+
+    .project-text, .live-link {
+        color: #fff;
+        font-size: .7em;
+    }
+
+    p.project-text {
+        padding: .25em;
     }
 
 }
