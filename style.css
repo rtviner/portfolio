@@ -163,6 +163,7 @@ div.welcome-text p {
 img#rtv-photo {
     width: 100%;
     height: auto;
+    padding: 1em;
 }
 
 h2 {
