@@ -162,10 +162,33 @@ div.welcome-text p {
 
 }
 
-img#rtv-photo {
+div.overlay-image {
+    position: relative;
+    width: 100%;
+    max-width: 325px;
+}
+
+.overlay-image .image {
+    display: block;
     width: 100%;
     height: auto;
-    padding: 1em;
+}
+
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay-image:hover .hover {
+    opacity: 1;
+}
+
+img#rtv-photo {
+    padding: .25em;
 }
 
 h2 {
