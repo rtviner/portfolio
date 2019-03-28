@@ -254,7 +254,7 @@ figure.project-gallery-fig {
 }
 
 .project-gallery-fig .overlay {
-    background: rgba(86,86,86,0.7);
+    background: #565656;
     opacity: 0;
     height: 100%;
     width: 100%;
