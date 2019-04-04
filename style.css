@@ -321,9 +321,18 @@ div.project-details a {
     transition: all .5s ease-in-out 0s;
 }
 
+a.git-hub-link {
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+}
+
 div.gitHubLogoWhite {
     background-image: url('images/GitHub-Mark-Light-32px.png');
     background-repeat: no-repeat;
+    background-position: center;
     width: 32px;
     height: 32px;
     margin: 0 auto;
@@ -337,26 +346,25 @@ div.gitHubLogoWhite {
 div.gitHubLogoBlack:hover {
     background-image: url('images/GitHub-Mark-32px.png');
     background-repeat: no-repeat;
+    background-position: center;
     width: 32px;
     height: 32px;
     margin: 0 auto;
     vertical-align: middle;  
     display: inline-block;  
     padding: 0.5em;
+    filter: drop-shadow(0px 2px 10px rgba(0,0,0,0.2));
 }
 
 div.project-details a:hover {
     color: #000;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                    0px -5px 35px rgba(255,255,255,0.3);
 }
 
 div.project-details a:active {
     color: #000;
 }
-
-div.project-details a:visited {
-    /*color: #fff;*/
-}
-
 
 section#connect {
     width: 100%;
@@ -420,6 +428,7 @@ div.linkedIn-black:hover {
     margin: 0 auto;
     vertical-align: middle;  
     display: inline-block;  
+    filter: drop-shadow(0px 2px 10px rgba(0,0,0,0.2));
 }
 
 a.contact-link {
@@ -431,6 +440,8 @@ a.contact-link {
 
 a.contact-link:hover {   
     color: #000;
+        text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                    0px -5px 35px rgba(255,255,255,0.3);
 }
 
 @media screen and (max-width: 1437px) {
