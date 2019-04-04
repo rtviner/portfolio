@@ -80,21 +80,11 @@ a#about:before {
     left: .45em;
 }
 
-a.nav-link:hover {
+a.nav-link:hover, a.nav-link:focus, a.nav-link:active  {
     color: #22313F;
 }
 
-a.nav-link:active {
-    color: #22313F;
-}
-
-a.nav-link:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-a.nav-link:active:before {
+a.nav-link:hover:before, a.nav-link:focus:before, a.nav-link:active:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
@@ -183,7 +173,7 @@ div.overlay-image {
     transition: .5s ease;
 }
 
-.overlay-image:hover .hover {
+.overlay-image:hover .hover, .overlay-image:focus .hover {
     opacity: 1;
 }
 
@@ -268,9 +258,10 @@ figure.project-gallery-fig {
     transition: all 0.4s ease-in-out 0s;
 }
 
-.project-gallery-fig:hover .overlay {
+.project-gallery-fig:hover .overlay, .project-gallery-fig:focus .overlay {
     opacity: 1;
 }
+
 
 img.project-thumbnail {
     display: block;
@@ -295,7 +286,7 @@ img.project-thumbnail {
     transition: all 0.3s ease-in-out 0s;
 }
 
-.project-gallery-fig:hover .project-details {
+.project-gallery-fig:hover .project-details, .project-gallery-fig:focus .project-details  {
     top: 50%;
     left: 50%;
     opacity: 1;
@@ -343,7 +334,7 @@ div.gitHubLogoWhite {
     transition: all .5s ease-in-out 0s;
 }
 
-div.gitHubLogoBlack:hover {
+div.gitHubLogoBlack:hover, div.gitHubLogoBlack:focus {
     background-image: url('images/GitHub-Mark-32px.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -356,7 +347,7 @@ div.gitHubLogoBlack:hover {
     filter: drop-shadow(0px 2px 10px rgba(0,0,0,0.2));
 }
 
-div.project-details a:hover {
+div.project-details a:hover, div.project-details a:focus {
     color: #000;
     text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                     0px -5px 35px rgba(255,255,255,0.3);
@@ -421,7 +412,7 @@ div.linkedIn-white {
     transition: all .3s ease-in-out 0s;
 }
 
-div.linkedIn-black:hover {
+div.linkedIn-black:hover, div.linkedIn-black:focus {
     background-image: url('images/In-Black-34px-R.png'); 
     height: 34px;
     width: 43px;
@@ -443,7 +434,7 @@ a.contact-link {
     margin: -2em; 
 }
 
-a.contact-link:hover {   
+a.contact-link:hover, a.contact-link:focus {   
     color: #000;
         text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                     0px -5px 35px rgba(255,255,255,0.3);
