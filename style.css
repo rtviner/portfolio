@@ -436,6 +436,11 @@ a.contact-link {
     color: #fff;  
     -webkit-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
 }
 
 a.contact-link:hover {   
