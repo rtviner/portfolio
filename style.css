@@ -360,7 +360,7 @@ a.gitHubLogoWhite {
 
 section#connect {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: #22313F;
     color: #d3d4d4;
@@ -537,16 +537,6 @@ a.linkedIn-white {
 
     div.contact {
         margin: 1em;
-    }
-
-    .project-text, .live-link {
-        color: #fff;
-        font-size: .7em;
-    }
-
-    p.project-text {
-        padding: .25em;
-        color: #fafafa;
     }
 
 }
