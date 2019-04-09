@@ -524,8 +524,15 @@ a.linkedIn-white {
 
 @media screen and (max-width: 620px) {
 
+    ul.nav-list {
+        width: 100%;
+        font-size: 1em;
+        padding-top: 1em;
+        text-align: center;
+    }
+
     article.welcome {
-        min-width: 80%;
+        min-width: 90%;
         flex-wrap: wrap;
         padding: 1em;
     }
