@@ -331,6 +331,9 @@ button.projectLink {
     font-size: 1em;
 }
 
+button.projectLink:active {
+	box-shadow: .5px .5px .25px #D3D4D4;
+}
 
 a.git-hub-link, a.live-link {
     display: inline-block;     
@@ -415,6 +418,10 @@ button.connect {
     transition: all .3s ease-in-out 0s;
 }
 
+button.connect:active {
+	box-shadow: .5px .5px .25px #D3D4D4;
+}
+
 a.contactLink {
     padding: .5em;
     display: inline-block;     
@@ -465,7 +472,7 @@ a.linkedIn-white {
 
     ul.nav-list {
         width: 100%;
-        font-size: 1em;
+        font-size: 1.25em;
         padding-top: 1em;
         text-align: center;
     }
@@ -507,6 +514,7 @@ a.linkedIn-white {
 }
 
 @media screen and (max-width: 620px) {
+
     article.welcome {
         min-width: 80%;
         flex-wrap: wrap;
