@@ -510,11 +510,11 @@ a.linkedIn-white {
     article.welcome {
         min-width: 80%;
         flex-wrap: wrap;
-        padding: 2em;
+        padding: 1em;
     }
 
     .welcome-text {
-        min-width: 16em;
+        min-width: 18em;
     }
 
     h1#name, div.welcome-text p {
