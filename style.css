@@ -222,7 +222,7 @@ div.project-gallery {
 article.project {
     width: 33%;
     max-width: 325px;
-    min-width: 225px;
+    min-width: 275px;
     margin: 1em;
     margin-bottom: 2em;
     overflow: hidden; 
@@ -312,24 +312,25 @@ div.project-details a {
     transition: all .5s ease-in-out 0s;
 }
 
-div.projectLink {
-    background-color: #565656;
-    border: 1px solid #D3D4D4;
-    border-radius: 5px;
-    display: inline-flex;
+div.projectLinks {
+	display: inline-flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 1.75px 1.75px .25px #D3D4D4;
-    height: 2.85em;
-    width: 4.75em;
-    margin: 1em;
+
 }
 
-div.projectLink.gitHub {    
-    width: 2.75em;
-    height: 2.75em;
-    
+button.projectLink {
+    background-color: #565656;
+    border: 1px solid #D3D4D4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1.75px 1.75px .25px #D3D4D4;
+    height: 3em;
+    width: 5em;
+    margin: 1em;
+    font-size: 1em;
 }
+
 
 a.git-hub-link, a.live-link {
     display: inline-block;     
@@ -339,7 +340,7 @@ a.git-hub-link, a.live-link {
     margin: -2em; 
 }
 
-div.gitHubLogoWhite {
+a.gitHubLogoWhite {
     background-image: url('images/GitHub-Mark-Light-32px.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -398,7 +399,7 @@ div.contact {
     color: #fff;
 }
 
-div.connectLink {
+button.connect {
     background-color: #22313F;
     border: 1px solid #D3D4D4;
     border-radius: 5px;
@@ -407,15 +408,24 @@ div.connectLink {
     justify-content: center;
     box-shadow: 1.75px 1.75px .25px #D3D4D4;
     height: 3em;
-    width: 3.5em;
-    margin: 1em;
-}
-
-div.connectLink.resume {
     width: 5em;
+    margin: 1em;
+    font-size: 1em;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
 }
 
-div.linkedIn-white {
+a.contactLink {
+    padding: .5em;
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;     
+    padding: 2em;     
+    margin: -2em; 
+    color: #fff;
+}
+
+a.linkedIn-white {
     background-image: url('images/In-White-34px-R.png'); 
     height: 34px;
     width: 43px;
@@ -423,23 +433,7 @@ div.linkedIn-white {
     vertical-align: middle;  
     display: inline-block;  
     padding: 0.5em;
-    -webkit-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s;
 }
-
-
-a.contact-link {
-    padding: .5em;
-    color: #fff;  
-    -webkit-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s;
-    display: inline-block;     
-    position: relative;    
-    z-index: 1;     
-    padding: 2em;     
-    margin: -2em; 
-}
-
 
 
 @media screen and (max-width: 1437px) {
