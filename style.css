@@ -302,15 +302,10 @@ p.project-text {
     color: #d3d4d4;
 }
 
-
 .fadeIn-bottom {
     top: 80%;
 }
 
-div.project-details a {
-    -webkit-transition: all .5s ease-in-out 0s;
-    transition: all .5s ease-in-out 0s;
-}
 
 div.projectLinks {
 	display: inline-flex;
@@ -329,6 +324,12 @@ button.projectLink {
     width: 5em;
     margin: 1em;
     font-size: 1em;
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+
+button.projectLink:hover, button.projectLink:focus {
+    background-color: #383838;
 }
 
 button.projectLink:active {
@@ -356,8 +357,6 @@ a.gitHubLogoWhite {
     -webkit-transition: all .5s ease-in-out 0s;
     transition: all .5s ease-in-out 0s;
 }
-
-
 
 section#connect {
     width: 100%;
@@ -414,9 +413,14 @@ button.connect {
     width: 5em;
     margin: 1em;
     font-size: 1em;
-    -webkit-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s;
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
 }
+
+button.connect:hover, button.connect:focus {
+	background-color: #141d26;
+}
+
 
 button.connect:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
