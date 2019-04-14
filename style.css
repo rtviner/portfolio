@@ -316,7 +316,6 @@ div.projectLinks {
 	display: inline-flex;
     align-items: center;
     justify-content: center;
-
 }
 
 button.projectLink {
@@ -341,10 +340,10 @@ button.projectLink:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
 }
 
-a.git-hub-link, a.live-link {
+a.gitHubLogoWhite, a.live-link {
     display: inline-block;     
     position: relative;    
-    z-index: 1;     
+    z-index: 1; 
     padding: 2em;     
     margin: -2em; 
 }
@@ -355,10 +354,8 @@ a.gitHubLogoWhite {
     background-position: center;
     width: 32px;
     height: 32px;
-    margin: 0 auto;
     vertical-align: middle;  
     display: inline-block;  
-    padding: 0.5em;
     -webkit-transition: all .5s ease-in-out 0s;
     transition: all .5s ease-in-out 0s;
 }
@@ -432,7 +429,7 @@ button.connect:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
 }
 
-a.contactLink {
+a.contactLink, a.linkedIn-white {
     display: inline-block;     
     position: relative;    
     z-index: 1;     
@@ -443,14 +440,12 @@ a.contactLink {
 
 a.linkedIn-white {
     background-image: url('images/In-White-34px-R.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
     height: 34px;
-    width: 43px;
-    margin: 0 auto;
-    vertical-align: middle;  
+    width: 43px;  
     display: inline-block;  
-    padding: 0.5em;
 }
-
 
 @media screen and (max-width: 1437px) {
 
