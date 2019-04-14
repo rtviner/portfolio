@@ -325,7 +325,7 @@ button.projectLink {
     border-radius: 5px;
     box-shadow: 1.75px 1.75px .25px #D3D4D4;
     height: 3em;
-    width: 5em;
+    width: 6em;
     margin: 1em;
     font-size: 1em;
     -webkit-transition: all .2s ease-in-out 0s;
@@ -412,8 +412,8 @@ button.connect {
     align-items: center;
     justify-content: center;
     box-shadow: 1.75px 1.75px .25px #D3D4D4;
-    height: 3em;
-    width: 5.25em;
+    height: 3.25em;
+    width: 6.25em;
     margin: 1em;
     font-size: 1em;
     -webkit-transition: all .2s ease-in-out 0s;
