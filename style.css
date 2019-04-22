@@ -238,6 +238,13 @@ article.project.bottom-row {
     margin-top: 0;
 }
 
+h3.projectName {
+	display: inline-block;
+	margin: 0;
+	margin-left: 1.25em;
+	font-size: 1em;
+}
+
 
 figure.project-gallery-fig {
     margin: 0;
@@ -320,8 +327,9 @@ div.projectLinks {
 }
 
 button#info {
-	height: 2em;
-    width: 3em;
+    height: 1.75em;
+    font-size: .95em;
+    width: 2.75em;
     padding: 0em;
     margin: .35em 0 .35em .5em;
 }
