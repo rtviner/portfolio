@@ -254,7 +254,7 @@ figure.project-gallery-fig {
     height: auto;
 }
 
-.project-gallery-fig .overlay {
+.overlay {
     background: #22313F; 
     opacity: 0;
     height: 100%;
@@ -269,9 +269,6 @@ figure.project-gallery-fig {
     transition: all 0.4s ease-in-out 0s;
 }
 
-.project-gallery-fig:hover .overlay, .project-gallery-fig:focus .overlay {
-    opacity: 1;
-}
 
 img.project-thumbnail {
     display: block;
@@ -279,26 +276,8 @@ img.project-thumbnail {
     height: auto;    
 }
 
-.project-details {
-    position: absolute;
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
 
-.project-gallery-fig:hover .project-details, .project-gallery-fig:focus .project-details  {
-    top: 50%;
-    left: 50%;
+.overlay {
     opacity: 1;
 }
 
@@ -314,24 +293,11 @@ p.project-text {
     color: #d3d4d4;
 }
 
-.fadeIn-bottom {
-    top: 80%;
-}
-
-
 div.projectLinks {
 	display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-button#info {
-    height: 1.75em;
-    font-size: .95em;
-    width: 2.75em;
-    padding: 0em;
-    margin: .35em 0 .35em .5em;
 }
 
 button.projectLink, button.connect {
@@ -350,6 +316,14 @@ button.projectLink, button.connect {
     font-size: 1em;
     -webkit-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
+}
+
+button.info {
+    height: 1.75em;
+    font-size: .95em;
+    width: 2.75em;
+    padding: 0em;
+    margin: .35em 0 .35em .5em;
 }
 
 button.projectLink:hover, button.connect:hover, button.projectLink:focus, button.connect:focus {
