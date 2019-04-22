@@ -316,27 +316,40 @@ div.projectLinks {
 	display: inline-flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
-button.projectLink {
-    background-color: #565656;
-    border: 1px solid #D3D4D4;
+button#info {
+	height: 2em;
+    width: 3em;
+    padding: 0em;
+    margin: .35em 0 .35em .5em;
+}
+
+button.projectLink, button.connect {
+    background-color: #22313F;
     color: #fff;
+    border: 1px solid #D3D4D4;
     border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 1.75px 1.75px .25px #D3D4D4;
-    height: 3em;
-    width: 6em;
+    height: 3.25em;
+    width: 6.25em;
     margin: 1em;
+    margin-bottom: .5em;
     font-size: 1em;
     -webkit-transition: all .2s ease-in-out 0s;
     transition: all .2s ease-in-out 0s;
 }
 
-button.projectLink:hover, button.projectLink:focus {
-    background-color: #383838;
+button.projectLink:hover, button.connect:hover, button.projectLink:focus, button.connect:focus {
+	background-color: #141d26;
 }
 
-button.projectLink:active {
+
+button.projectLink:active, button.connect:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
 }
 
@@ -402,31 +415,6 @@ div.contact {
     margin: 2em;
     background-color: #565656;
     color: #fff;
-}
-
-button.connect {
-    background-color: #22313F;
-    border: 1px solid #D3D4D4;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 1.75px 1.75px .25px #D3D4D4;
-    height: 3.25em;
-    width: 6.25em;
-    margin: 1em;
-    font-size: 1em;
-    -webkit-transition: all .2s ease-in-out 0s;
-    transition: all .2s ease-in-out 0s;
-}
-
-button.connect:hover, button.connect:focus {
-	background-color: #141d26;
-}
-
-
-button.connect:active {
-	box-shadow: .5px .5px .25px #D3D4D4;
 }
 
 a.contactLink, a.linkedIn-white {
