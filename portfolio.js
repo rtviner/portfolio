@@ -1,11 +1,11 @@
 let projects = document.getElementById('projectExamples');
-console.log(projects);
-let infoButtons = document.getElementsByClassName('info');
-let closeButton = document.getElementsByClassName('close');
-
 
 projects.addEventListener('click', function(event) {
-	let overlay = event.target.nextElementSibling.lastElementChild;
-	overlay.classList.add('clicked');
-
+	if (event.target.className === "projectLink info") {
+		let overlay = event.target.nextElementSibling.lastElementChild;
+		overlay.classList.add('clicked');
+	} else if (event.target.className == "close") {
+		let overlay = event.target.parentNode;
+		overlay.classList.remove('clicked');
+	}
 });
