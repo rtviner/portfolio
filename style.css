@@ -326,6 +326,13 @@ button.info {
     margin: .35em 0 .35em .5em;
 }
 
+button.close {
+	height: 1.5em;
+    width: 1em;
+    font-size: 1.5em;
+    padding: .12em;
+}
+
 button.projectLink:hover, button.connect:hover, button.projectLink:focus, button.connect:focus {
 	background-color: #141d26;
 }
@@ -353,6 +360,9 @@ a.gitHubLogoWhite {
     display: inline-block;  
     -webkit-transition: all .5s ease-in-out 0s;
     transition: all .5s ease-in-out 0s;
+}
+a.gitHubLogoWhite:focus, a.live-link:focus {
+	border: none;
 }
 
 section#connect {
