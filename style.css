@@ -334,12 +334,12 @@ button.close {
     padding: .12em;
 }
 
-button.projectLink:hover, button.connect:hover, button.projectLink:focus, button.connect:focus {
-	background-color: #141d26;
+.projectLink:hover, .connect:hover, .projectLink:focus, .connect:focus {
+	background-color: #565656;
 }
 
 
-button.projectLink:active, button.connect:active {
+.projectLink:active, .connect:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
 }
 
