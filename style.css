@@ -300,7 +300,7 @@ div.projectLinks {
     width: 100%;
 }
 
-button.projectLink, button.connect {
+.projectLink, .connect {
     background-color: #22313F;
     color: #fff;
     border: 1px solid #D3D4D4;
@@ -324,6 +324,7 @@ button.info {
     width: 2.75em;
     padding: 0em;
     margin: .35em 0 .35em .5em;
+
 }
 
 button.close {
@@ -346,8 +347,13 @@ a.gitHubLogoWhite, a.live-link {
     display: inline-block;     
     position: relative;    
     z-index: 1; 
-    padding: 2em;     
+    padding: 1.65em; 
+    padding-left: 4em;    
     margin: -2em; 
+}
+
+a.live-link {
+    padding: 1em;
 }
 
 a.gitHubLogoWhite {
