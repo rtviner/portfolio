@@ -136,21 +136,6 @@ article.welcome {
     padding: 1em;
 }
 
-h1#name {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 1.75em;
-    padding-top: 0;
-    text-align: left;
-    text-shadow: 1px 1px #22313F;
-    margin-top: 0;
-   
-}
-
-h2.welcome {   
-    text-align: left;
-}
-
 div.welcome-text p {   
     margin: 0 ;
     padding: .25em;
