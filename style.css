@@ -198,7 +198,7 @@ header#projects-head h2 {
     color: #22313F;
     display: block;
     margin: 0 auto;
-    margin-top: 1em;
+    margin-top: 2em;
     font-size: 1.5em;
     font-weight: bold;
     padding: 0;
@@ -207,6 +207,7 @@ header#projects-head h2 {
 h3 {
     width: 100%;
     text-align: center;
+    padding:;
 }
 
 
