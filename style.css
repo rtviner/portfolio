@@ -204,6 +204,11 @@ header#projects-head h2 {
     padding: 0;
 }
 
+h3 {
+    width: 100%;
+    text-align: center;
+}
+
 
 div.project-gallery {
     display: flex;
