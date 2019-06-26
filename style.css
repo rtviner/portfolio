@@ -222,6 +222,10 @@ div.project-gallery {
     margin-top: 2.5em;
 }
 
+div#certifications {
+    margin-top: 0;
+}
+
 article.project {
     width: 33%;
     max-width: 325px;
@@ -242,7 +246,6 @@ h3.projectName {
 	margin-left: 1.25em;
 	font-size: 1em;
 }
-
 
 figure.project-gallery-fig {
     margin: 0;
@@ -267,13 +270,11 @@ figure.project-gallery-fig {
     transition: all 0.4s ease-in-out 0s;
 }
 
-
 img.project-thumbnail {
     display: block;
     width: 100%;
     height: auto;    
 }
-
 
 .overlay.clicked {
     opacity: 1;
@@ -336,7 +337,6 @@ button.close {
 	background-color: #565656;
 }
 
-
 .projectLink:active, .connect:active {
 	box-shadow: .5px .5px .25px #D3D4D4;
 }
@@ -387,7 +387,6 @@ header#connect-head h2 {
     padding: 1em;
     font-size: 1.75em;
 }
-
 
 div.contact-info {
     display: flex;
@@ -539,6 +538,3 @@ a.linkedIn-white {
     }
 
 }
-
-
-
