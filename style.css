@@ -204,7 +204,7 @@ header#projects-head h2 {
     padding: 0;
 }
 
-h3 {
+h3.project-gallery-title {
     width: 100%;
     text-align: center;
     font-size: 1.25em;
