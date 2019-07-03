@@ -257,6 +257,14 @@ figure.project-gallery-fig {
     height: auto;
 }
 
+.overlay.visible {
+    opacity: 1;
+}
+
+.overlay.hidden {
+    opacity: 0;
+}
+
 .overlay {
     background: #22313F; 
     opacity: 0;
@@ -328,11 +336,8 @@ button.info {
 
 }
 
-button.close {
-	height: 1.5em;
-    width: 1em;
+i.fa.fa-info-circle, i.fa.fa-close {
     font-size: 1.5em;
-    padding: .12em;
 }
 
 .projectLink:hover, .connect:hover, .projectLink:focus, .connect:focus {

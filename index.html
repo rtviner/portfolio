@@ -7,7 +7,7 @@
 	<title>rtviner</title>
   	<link rel="stylesheet" href="style.css"> 
   	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Oswald" rel="stylesheet">
-
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
   
 <body>
@@ -54,11 +54,12 @@
 				<div class="project-gallery" id="personal">
 					<h3 class="project-gallery-title"> Personal Projects</h3>
 					<article id="brew-ratio" class="project">
-						<button class="projectLink info" name="project information" >info</button>
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>
 						<figure class="project-gallery-fig" id="brewRatio">
 							<img class="project-thumbnail" src="images/brew_ratio_w325.png" alt="Brew Ratio webpage preview">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>	
+							<div class="overlay hidden">
 							    <figcaption>
 							    	<p class="project-text">Brew Ratio is a web app created with React.js which calculates the amount of coffee and water required for the desired cups and strength of coffee.  I created Brew Ratio because I appreciate coffee brewed with precision.</p>
 							    </figcaption> 	
@@ -76,11 +77,13 @@
 						</div>
 					</article>
 					<article id="exerdice" class="project">
-						<button class="projectLink info" name="project information">info</button>
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>
 						<figure class="project-gallery-fig" id="exerdice">	
 							<img class="project-thumbnail" src="images/Exerdice_w_325.png" alt="Exerdice webpage preview">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>	
+							<div class="overlay hidden">
+
 								<figcaption>
 							    	<p class="project-text">Exerdice is a fitness game built with Vanilla JavaScript, HTML, and CSS that assembles a variety of strength training workouts based on the outcome of virtual dice rolls.  Exerdice was created to keep my workouts fun and unique.</p>
 							    </figcaption>
@@ -98,11 +101,12 @@
 						</div>	
 					</article>
 					<article id="loam-seekers" class="project">
-						<button class="projectLink info" name="project information">info</button>
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>
 						<figure class="project-gallery-fig" id="loamSeekers" >
 							<img class="project-thumbnail" src="images/loam-seekers_w_325.png" alt="Loam Seekers webpage preview">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>	
+							<div class="overlay hidden">
 								<figcaption>
 							    	<p class="project-text">Loam Seekers is a responsive photo journal of my road tripping and mountain biking adventures created with HTML and CSS.  It was a once in a lifetime trip that I never want to forget.</p>
 							    </figcaption>
@@ -120,11 +124,12 @@
 					    </div>						
 					</article>
 					<article id="js-calculator" class="project bottom-row">
-						<button class="projectLink info" name="project information">info</button>		
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>		
 						<figure class="project-gallery-fig" id="calculator" >
 							<img id="calculator-thumb" class="project-thumbnail"  src="images/JScalculator_w_325.png" alt="JS Calculator webpage preview">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>
+							<div class="overlay hidden">
 								<figcaption>
 						    		<p class="project-text">A calculator created with Vanilla Javascript, HTML, and CSS.  Use the keyboard or mouse to input numbers, decimals, or operators.</p>
 						    	</figcaption>
@@ -145,11 +150,12 @@
 				<div class="project-gallery" id="certifications">
 					<h3 class="project-gallery-title"> freeCodeCamp Certification Projects</h3>
 					<article id="FCC-rwdCert" class="project">
-						<button class="projectLink info" name="project information">info</button>
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>
 						<figure class="project-gallery-fig" id="FCCwebDesignCert" >
 							<img id="rwdCert-thumb" class="project-thumbnail"  src="images/FCCcertification_rtviner_responsive-web-design_w_325.png" alt="FCC responsive web design certification">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>	
+							<div class="overlay hidden">
 								<figcaption>
 							    	<p class="project-text">I completed 5 unique responsive HTML and CSS projects, including this portfolio, to earn this certificate.  Click on the link below to view all of the projects in codePen and learn more about the certification requirements.</p>
 							    </figcaption>
@@ -164,11 +170,12 @@
 						</div>					
 					</article>
 					<article id="FCC-JSCert" class="project">
-						<button class="projectLink info" name="project information">info</button>		
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>	
 						<figure class="project-gallery-fig" id="FCCjavaScriptCert" >
 							<img id="JsCert-thumb" class="project-thumbnail"  src="images/FCCcertification_JSalgorithms-and-data-structures.png" alt="FCC JavaScript Algorithms and Data Structures certification">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>							
+							<div class="overlay hidden">	
 								<figcaption>
 							    	<p class="project-text">I wrote 5 algorithms in JavaScript to earn this certificate.  Click on the link below to view the challenges, tests, and my solutions.</p>
 							    </figcaption>
@@ -181,11 +188,12 @@
 						</div>
 					</article>
 					<article id="FCC-FELibCert" class="project">
-						<button class="projectLink info" name="project information">info</button>
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>
 						<figure class="project-gallery-fig" id="FCCFrontendLibCert" >
 							<img id="FELibCert-thumb" class="project-thumbnail"  src="images/FCCcertification_rtviner_front-end-libraries_w_325.png" alt="FCC Front End Libraries Certification">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>							
+							<div class="overlay hidden">	
 								<figcaption>
 							    	<p class="project-text">I used webpack and Babel to create 5 web apps with React.js to earn this Frontend libraries certificate.  Click on the gitHub link below to learn about the requirements for each project.</p>
 							    </figcaption>
@@ -203,11 +211,12 @@
 						</div>
 					</article>
 					<article id="FCC-DVcert" class="project bottom-row">
-						<button class="projectLink info" name="project information">info</button>		
+						<button id="open" class="projectLink info" name="project information">
+							<i id="icon" class="fa fa-info-circle"></i>
+						</button>	
 						<figure class="project-gallery-fig" id="FCCDataVisCert" >
 							<img id="D3Cert-thumb" class="project-thumbnail"  src="images/FCCcertification_rtviner_data-visualization_w_325.png" alt="FCC Data Visualization Certificate">
-							<div class="project-info overlay">
-								<button class="close" name="close info">x</button>							
+							<div class="overlay hidden">
 								<figcaption>
 							    	<p class="project-text">I created 5 unique interactive data visualizations with the JavaScript library D3.js to earn this certificate.  Click on the gitHub link below to learn about the requirements and tests for each visualization.</p>
 							    </figcaption>
