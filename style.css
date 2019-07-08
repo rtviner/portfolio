@@ -218,10 +218,9 @@ div.project-gallery {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
-    width: 74.5%;
-    margin: 0 auto;
-    margin-top: 2.5em;
+    justify-content: center;
+    width: 80%;
+    margin: 2.5em auto 2em auto;
 }
 
 div#certifications {
@@ -333,11 +332,12 @@ button.info {
     width: 2.75em;
     padding: 0em;
     margin: .35em 0 .35em .5em;
-
+    cursor: pointer;
 }
 
 i.fa.fa-info-circle, i.fa.fa-close {
     font-size: 1.5em;
+    z-index: 1;  
 }
 
 .projectLink:hover, .connect:hover, .projectLink:focus, .connect:focus {
@@ -443,23 +443,13 @@ a.linkedIn-white {
     }
 }
 
-@media screen and (max-width: 1437px) {
-
+@media screen and (max-width: 1340px) {
+    div.project-gallery {
+        width: 100%;
+    }
     article.project {
         margin: .25em;
         margin-bottom: .5em;
-    }
-   
-}
-
-@media screen and (max-width: 1340px) {
-    div.project-gallery {
-        justify-content: center;
-    }
-
-    article.project {
-        margin: 1em;
-        margin-bottom: 2em;
     }
 }
 
@@ -489,18 +479,9 @@ a.linkedIn-white {
         padding: 1em 0;
     }
 
-     div.project-gallery {
-        width: 100%;
-    }
-
     header#projects-head h2{
         margin: 2em 0;
         font-size: 1.25em;
-    }
-
-    article.project {
-        margin: .25em;
-        margin-bottom: .5em;
     }
 
     div.contact-info {
