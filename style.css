@@ -48,14 +48,12 @@ ul.nav-list {
 li {
 	display: inline-block;
 	list-style: none;
-
 }
 
 a {
     text-decoration: none;
     color: #22313F;
     padding: .5em;
-    
 }
 
 a.nav-link {
@@ -115,7 +113,6 @@ section#welcome-section {
     flex-direction: column;   
     border-bottom: 2px solid #22313F;
     z-index: 25;
-
 }
 
 article.welcome {
@@ -129,14 +126,13 @@ article.welcome {
     width: 60%;
     min-width: 610px;
     border-radius: 5px;
-
 }
 
 .welcome-text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 19em;
+    min-width: 25em;
     max-width: 29em;
     width: 75%;
     padding: 1em;
@@ -146,7 +142,6 @@ div.welcome-text p {
     margin: 0 ;
     padding: .25em;
     justify-content: left;
-
 }
 
 div.overlay-image {
@@ -158,6 +153,7 @@ div.overlay-image {
 .overlay-image .image {
     display: block;
     width: 100%;
+    max-width: 325px;
     height: auto;
 }
 
@@ -186,8 +182,7 @@ section#projects {
     padding-bottom: 5em;
     height: auto;
     background-color: #fafafa;
-    z-index: 25; 
-
+    z-index: 25;
 }
 
 header {
@@ -212,7 +207,6 @@ h3.project-gallery-title {
     display: block;
 }
 
-
 div.project-gallery {
     display: flex;
     flex-direction: row;
@@ -220,6 +214,7 @@ div.project-gallery {
     align-items: center;
     justify-content: center;
     width: 80%;
+    max-width: 1200px;
     margin: 2.5em auto 2em auto;
 }
 
@@ -282,7 +277,7 @@ figure.project-gallery-fig {
 img.project-thumbnail {
     display: block;
     width: 100%;
-    height: auto;    
+    height: auto; 
 }
 
 .overlay.clicked {
@@ -444,6 +439,9 @@ a.linkedIn-white {
 }
 
 @media screen and (max-width: 1340px) {
+    article.welcome {
+        width: 75%;
+    }
     div.project-gallery {
         width: 100%;
     }
@@ -454,7 +452,6 @@ a.linkedIn-white {
 }
 
 @media screen and (max-width: 785px) {
-
     header#title {
         visibility: collapse;
         width: 0%;
@@ -495,7 +492,6 @@ a.linkedIn-white {
 }
 
 @media screen and (max-width: 620px) {
-
     ul.nav-list {
         width: 100%;
         font-size: 1em;
