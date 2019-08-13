@@ -291,9 +291,17 @@ img.project-thumbnail {
 
 p.project-text {
     text-align: left;
+    margin-bottom: .2em;
     padding: .5em;
     text-indent: 2em;
     color: #d3d4d4;
+}
+
+p.project-text.tech {
+    padding: 0;
+    text-indent: 0;
+    text-align: center;
+    margin: 0 auto;
 }
 
 div.projectLinks {
