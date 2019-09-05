@@ -175,8 +175,9 @@ h2 {
 	text-align: center;
 }
 
-section#projects {
+section#projectExamples {
     width: 100%;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 3em 0;
     padding-bottom: 5em;
@@ -191,12 +192,9 @@ header {
 
 header#projects-head h2 {
     color: #22313F;
-    display: block;
-    margin: 0 auto;
-    margin-top: 2em;
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 0;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 1.75em;
 }
 
 h3.project-gallery-title {
@@ -213,13 +211,9 @@ div.project-gallery {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1500px;
     margin: 2.5em auto 2em auto;
-}
-
-div#certifications {
-    margin-top: 0;
 }
 
 article.project {
@@ -230,17 +224,6 @@ article.project {
     margin-bottom: 2em;
     overflow: hidden; 
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-article.project.bottom-row {
-    margin-top: 0;
-}
-
-h3.projectName {
-	display: inline-block;
-	margin: 0;
-	margin-left: 1.25em;
-	font-size: 1em;
 }
 
 figure.project-gallery-fig {
@@ -288,9 +271,16 @@ img.project-thumbnail {
     color: #fff;
     font-size: .9em;
 }
+h3.project-text {
+    text-align: center;
+    margin: 0 auto;
+    color: #d3d4d4;
+    padding-top: .5em;
+}
 
 p.project-text {
     text-align: left;
+    margin: 0;
     margin-bottom: .2em;
     padding: .5em;
     text-indent: 2em;
@@ -480,7 +470,7 @@ a.linkedIn-white {
         font-size: .85em;
     }
 
-    section#projects {
+    section#projectExamples {
         padding: 1em 0;
     }
 
