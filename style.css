@@ -184,6 +184,8 @@ section#projectExamples {
     height: auto;
     background-color: #fafafa;
     z-index: 25;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
